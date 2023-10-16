@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Staatliches&display=swap");
+
+/* common styles */
+:root {
+  --brown: #7c674e;
+  --grey: #b0b8d6;
+  --white: #efebea;
+  --black: #172324;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.staatliches {
+  font-family: "Staatliches", sans-serif;
+}
+.container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-wrap {
+  min-height: 100vh;
+  background-image: url("../assets/images/room_back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* text styles */
+.h1 {
+  font-size: 65px;
+  color: var(--white);
+}
+
+.h4 {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--grey);
+  line-height: 130%;
+}
+
+.txt {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--grey);
+  line-height: 120%;
+}
+
+.txt-sm {
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* header nav */
+.header {
+  padding-top: 46px;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--grey);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 60px;
+}
+
+.nav-link:last-child {
+  margin-right: 0px;
+}
+
+.nav-link:hover {
+  color: var(--brown);
+}
+.nav-link.active {
+  color: var(--brown);
+}
+
+/* main section */
+.main {
+  padding-top: 155px;
+  flex-grow: 1;
+}
+
+.main-content {
+  max-width: 353px;
+}
+
+.main-h1 {
+  padding-bottom: 20px;
+}
+
+.main-txt {
+  padding-bottom: 20px;
+}
+
+.skils-item li {
+  padding-bottom: 10px;
+}
+
+/* footer */
+.footer {
+  background-color: var(--black);
+  padding: 28px 0 18px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
